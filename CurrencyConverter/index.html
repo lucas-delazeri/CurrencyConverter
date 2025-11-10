@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Conversor de Moedas</h1>
+
+    <section>
+        <div class="currency-select">
+            <select id="fromCurrency">
+                <option value="USD" selected>USD - Dólar</option>
+                <option value="EUR">EUR - Euro</option>
+                <option value="BRL">BRL - Real</option>
+                <option value="GBP">GBP - Libra</option>
+                <option value="JPY">JPY - Iene</option>
+            </select>
+
+            <select id="toCurrency">
+                <option value="BRL" selected>BRL - Real</option>
+                <option value="USD">USD - Dólar</option>
+                <option value="EUR">EUR - Euro</option>
+                <option value="GBP">GBP - Libra</option>
+                <option value="JPY">JPY - Iene</option>
+            </select>
+        </div>
+
+        <div class="input-container">
+            <span class="cur">De</span>
+            <input type="number" id="valorOrigem" placeholder="Digite o valor">
+        </div>
+
+        <div class="input-container">
+            <span class="cur">Para</span>
+            <input type="text" id="valorConvertido" placeholder="Resultado" readonly>
+        </div>
+
+        <button id="converterBtn">Converter</button>
+
+        <p id="cotacao">💬 Cotação atual: ---</p>
+    </section>
+
+    <script type="module" src="Converter.mjs"></script>
+</body>
+</html>
