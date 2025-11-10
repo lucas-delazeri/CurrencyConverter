@@ -1,4 +1,4 @@
-const apiKey = "72781bd9811762d4ca235cf0"; // 🔑 Coloque aqui sua chave da ExchangeRate API
+const apiKey = "72781bd9811762d4ca235cf0"; 
 let taxaAtual = 1;
 
 const fromSelect = document.querySelector("#fromCurrency");
@@ -48,3 +48,4 @@ toSelect.addEventListener("change", converterMoedas);
 converterBtn.addEventListener("click", converter);
 
 converterMoedas();
+
