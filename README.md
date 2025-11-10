@@ -1,5 +1,12 @@
 # CurrencyConverter
-
+--- 
+![Status](https://img.shields.io/badge/status-offline-blue?style=flat-square)
+![Versão](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square)
+![Linguagem](https://img.shields.io/badge/made%20with-JavaScript-yellow?style=flat-square)
+![Licença](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+![API](https://img.shields.io/badge/API-ExchangeRate--API-orange?style=flat-square)
+![Tema](https://img.shields.io/badge/theme-dark%20%2F%20light-5555ff?style=flat-square)
+--- 
 ## Descrição
 O projeto desenvolvido consiste em um conversor de moedas utilizando a API "ExchangeRate-API v6" 
 ---
